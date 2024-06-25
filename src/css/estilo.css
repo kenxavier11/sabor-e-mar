@@ -1,0 +1,22 @@
+header{
+    min-width: 1200px;
+    max-height: 300px;
+    text-align: center;
+}
+.imagem-da-marca{
+    width: 50%;
+    height: auto;   
+}
+nav{
+    background-color: aqua;
+    font-size: 1.4rem;
+    
+    
+}
+nav ul li a{
+    background-color: black;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    
+}
