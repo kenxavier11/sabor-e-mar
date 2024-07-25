@@ -1,92 +1,79 @@
 
 header {
-    max-width: 1200px;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .imagem-da-marca {
     width: 50%;
-    height: auto;
 }
 
 nav {
-    font-size: 1.4rem;
+    width: 100%;
     background-color: #c1973b;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    list-style: none;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 0 100px;
-
-    
 }
 
 .menu a{
     font-size: 2rem;
-    padding: 5px;
-    margin: 5px auto;
     color: black;
     transition: 0.3s;
 }
+nav a:hover{
+    color: #ffffff;
+}
  /* sessao da main */
 main{
-    max-width: 1200px;
-}
-.funcionamento{
-    display: flex;
-    
     width: 100%;
-    height: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .foto-ilustrativa{
-    
     width:50%;
-    min-height: 412px;
 }
 .foto-ilustrativa img{
     width: 100%;
-    height: 100%;
 }
 .horarios{
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     text-align: center;
     width: 50%;
 }
 .horarios h3{
-    font-size: 4rem;
+    font-size: 6rem;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: #c1973b solid 1px;
 }
 .horarios ul li{
-    list-style: none;
     padding: 3px;
-    font-size: 1.4rem;
-    
+    font-size: 2rem;
 }
 .horarios h4{
-    padding: 2px;
-    font-size: 1.3rem;
+    color: #c1973b;
+    padding: 5px;
+    font-size: 1.8rem;
     
-}
-.horarios p{
-    
-    padding: 2px;
-    font-weight: 600;
 }
 .horarios a{
     color: black;
-    background-color: #c1973b;
     display: inline-block;
-    padding: 5px;
-    margin: 1.3px;
-    border: #c1973b solid 1px;
-    border-radius: 20%;
-    font-size: 1.3rem;
+    padding: 10px 20px;
+    margin: 1.5px;
+    border: #c1973b solid 2px;
+    border-radius: 20px;
+    font-size: 1.5rem;
     transition: 0.3s;
 }
 .fechado{
@@ -96,61 +83,79 @@ main{
 .aberto{
     font-weight: 600;
 }
+main a:hover{
+    background-color: #c1973b;
+    color:#fff;
+}
 /* sessao da section das parcerias */
 
 section{
     background-color: #c9f2f6;
-    max-width: 1200px;
-    max-height: auto;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
-    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .parceiros{
-    margin: 5px;
-    padding: 30px;
     text-align: center;
-    letter-spacing: 2px;
-    font-size: 1.4rem;
-    border: #c1973b  2px;
-    border-style: dashed;
+    letter-spacing: 1px;
+    border: #ffffff dashed 5px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 1px 1px 10px #999 ;
 }
 .parceiros img{
-    margin: 20px;
-    font-size: 2rem;
+    margin: 20px 10px;
+    width: 150px;
+    height: 150px;
     border: #c1973b solid 0.5px;
-    border-radius: 100%;
+    border-radius: 50%;
+}
+.parceiros p{
+    font-size: 2rem;
+    color: #c1973b;
+    padding: 20px;
 }
 /* sessao footer */
 footer{
-    background-color: #c1973b;
+    background-color: #1da2c9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    font-size: 1.15rem;
-    max-width: 1200px;
-    max-height: auto;
     transition: 0.5s;
 }
 .info-do-footer h6{
-    font-size: 1.5rem;
-    color: #000;
-    margin-bottom: 3px;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 5px;
 }
 .info-do-footer p{
-    padding: 3px;
-    letter-spacing: 1.2px;
+    font-size: 1.2rem;
+    padding: 5px;
+    letter-spacing: 1px;
     color: #e5e5e5;
 }
 .contatos-footer a{
+    display: inline-block;
     color: #000;
-    
+    font-size: 1.3rem;
+    margin: 5px 20px;
+    transition: 0.3s;
+}
+.contatos-footer a:hover{
+    color: #ffffff;
+    font-size: 2rem;
 }
 .criador{
-    font-size: 0.8rem;
+    padding: 5px;
+    font-size: 1rem;
 }
 .criador a{
-    color:#550b02;
-}
-a:hover{
-    color:#fff;
+    color:#ffffff;
 }
